@@ -5,7 +5,6 @@ public class UnitTestingStringProblem {
         //Apply Unit Test into all the methods in this package.
 
 
-        System.out.println("I'll remember to do this once I ask you to reteach me. I really tried to do it!");
         
 
 
