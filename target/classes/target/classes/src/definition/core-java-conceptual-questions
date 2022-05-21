@@ -1,20 +1,35 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A. Programing language is a computer language for coding and building software.
+
 
 
 
 
 What jdk contains or composed of and define each components?
 A.
-
-
-
-
+JDK stands for Java development Kit, it contains-
+# Java runtime environment (JRE)
+( JRE takes Java code, combines it with necessary libraries and start the JVM to execute it. )
+* Java Virtual Machine ( JVM )
+( JVM verifies and executes java bytecode. First compiler compiles the code and generate bytecode
+and then inter convert the bytecode to machine understandable code. )
+* The Just-In_Time ( JIT )
+( Its a component that compile bytecodes to native codes at Run Time )
+* Core Libraries
+( The core libraries consists of classes which are used by many properties of the JDK. )
+# Compiler
+( Compiler convert source code to byte code )
+# Debugger
+( Debugger allows user to halt the program and examine the value of variable in the execution line by line. )
+# Disassembler
+( Java Disassembler disassemble the Java bytecode after compiled.
+And then information about the Member Variable and Methods are printed. )
 
 What is IDE?
-A.
+A. IDE stands for Integrated Development Environment. It is a software allows user to
+   write, execute and debug Java program.
 
 
 
@@ -24,10 +39,16 @@ A. Eclipse, IntelliJ, Netbeans.
 
 
 Explain the entire java life cycle.
-
+A. At Editing Time-----
+   * we write the program and save it .java file.
+   At compile time----
+   * Compiler convert source code (.java) to .class file which is byte code.
+   Also known as machine independent or platform independent code
+   At Runtime-------
+   * JIT compile the bytecode to native code which will execute by CPU
 
 what is class?
-A. ate for an object.
+A. A class is a blueprint for an object.
 
 What is object?
 A. Instance of a class.
