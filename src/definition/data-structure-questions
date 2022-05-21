@@ -1,35 +1,117 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
-
+A.To store organizing information.
 
 What are the various operations that can be performed on different Data Structures?
-List out the areas in which data structures are applied extensively?
-what is an Array?
-what is the difference between the Array and ArrayList?
-what is LinkedList?
-How is an Array different from Linked List?
-what is queue?
-what is stack?
-what is FIFO and LIFO?
-what is the order of complexity?
-what is the best case to search an element from an array?
-what is the worst case to search an element from an array?
-what is tree in data structure?
-what is graph in data structure?
-what is the difference between the HashTable and HashMap?
-What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
-How HashMap works in java?
-What is ArrayIndexOutOfBoundsException in java? When it occurs?
-What are the different ways of copying an array into another array?
-What is difference between an array and a linked list?
-What is DFS and BFS?
-What is Recursion?
-What are linear and non linear data Structures?
-What is Big-(O)-notation?
-Outlined different kind of sorting algorithm with time complexity?
+A. cTraversing - Searching - Inserting - Deleting - Sorting - Merging - Traversing.
 
+List out the areas in which data structures are applied extensively?
+A. 1.Compiler Design
+   2.Operating System
+   3.Database Management System
+   4.Statistical analysis package
+   5.Numerical Analysis
+   6.Graphics
+   7.Artificial Intelligence
+   8.Simulation
+
+
+what is an Array?
+A. An array is a container object that holds a fixed number of values of a single type.
+
+what is the difference between the Array and ArrayList?
+A. Array is fixed in size while an ArrayList is dynamically growing.
+
+what is LinkedList?
+A. A linked list is a linear data structure where each element is a separate object.
+
+How is an Array different from Linked List?
+A. In array, each element is independent, no connection with previous element or with its location. In Linked list,
+location or address of elements is stored in the link part of previous element/nod
+
+what is queue?
+A. A queue is designed to have elements inserted at the end of the queue,
+   and elements removed from the beginning of the queue.
+
+what is stack?
+A. It is a collection that is based on the last in first out (LIFO) principle.
+
+what is FIFO and LIFO?
+A. First in first out, last in first out
+
+what is the order of complexity?
+A. Time complexity describes how the runtime of an algorithm changes depending on the amount of input data.
+   The most common complexity classes are (in ascending order of complexity): O(1), O(log n), O(n), O(n log n), O(n²).
+
+what is the best case to search an element from an array?
+A. Sequential search is the best that we can do when trying to find a value in an unsorted array.
+
+what is the worst case to search an element from an array?
+A. The worst-case performance is when the search item appears at the end of the list or not at all.
+   This would require N comparisons, hence, the worse case is O(N).
+
+what is tree in data structure?
+A. A tree is a non-linear data structure where data objects are organized in terms of hierarchical
+         relationship.
+what is graph in data structure?
+A.  A graph is an object consisting of a vertex set and edge set.
+
+what is the difference between the HashTable and HashMap?
+A.  HashTable is synchronized whereas hashmap is not.
+
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+A. RDBMS uses Arrays (Array of structures).
+          Network data model uses Graph.
+          Hierarchical data model uses Trees.
+
+
+How HashMap works in java?
+A. HashMap uses multiple buckets and each bucket points to a singly linked list where the entries (nodes)
+         are stored. once the bucket is identified by the hash function using hashcode, then hashcode is used to
+         check if there is already a key with the same hashcode or not in the bucket(singly linked list).
+
+
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A. Thrown to indicate that an Array has been accessed with an illegal index. it occurs when we access
+         an array, or a collection, that is backed by an with an invalid index.
+
+What are the different ways of copying an array into another array?
+A.       1.Manually
+         2. You can use a for loop and copy elements of one to another one by one.
+         3. System.arraycopy()
+
+
+What is difference between an array and a linked list?
+A. In array, each element is independent, no connection with previous element or with its location.
+         In Linked list,location or address of elements is stored in the link part of previous element/node. If you are manipulating data use linkedlist.
+
+What is DFS and BFS?
+A. The breadth first search (BFS) and the depth first search (DFS) are the two algorithms used for
+         traversing and searching a node in a graph.They can also be used to find out whether a node is
+         reachable from a given node or not.
+
+What is Recursion?
+A. A method that calls itself.
+
+What are linear and non linear data Structures?
+A. In a linear data structure, data elements are arranged in a linear order where each and every
+         element is attached to its previous and next adjacent. In a non-linear data structure, data elements
+         are attached in hierarchically manner.
+
+
+What is Big-(O)-notation?
+A. Big O notation is used to describe the performance or complexity of an algorithm.
+
+Outlined different kind of sorting algorithm with time complexity?
+A.             1.Selection sort
+               2.Merge sort
+               3.Heapsort
+               4.Quicksort
+               5.Bubble sort
+               6.Shellsort
+               7.Comb sort
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
   b)In terms of Inserting element.

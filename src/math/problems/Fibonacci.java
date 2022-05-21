@@ -8,5 +8,18 @@ public class Fibonacci {
          */
 
 
+        int n = 40, firstNum = 0, secondNum = 1;
+        System.out.println("Forty Fibonacci Numbers:");
+
+        for (int i = 1; i <= n; ++i) {
+            System.out.print(firstNum + ", ");
+
+            int nextNum = firstNum + secondNum;
+            firstNum = secondNum;
+            secondNum = nextNum;
+
+        }
+
     }
+
 }

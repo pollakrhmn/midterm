@@ -13,6 +13,17 @@ public class DetermineLargestWord {
         Map<Integer, String> wordNLength = findTheLargestWord(s);
         //implement
 
+
+        String[] array = s.split(" ");
+        String longestWord = " ";
+        for (int i = 0; i < array.length; i++) {
+            if (array[i].length() >= longestWord.length()) {
+                longestWord = array[i];
+
+            }
+            System.out.println("Length: " + longestWord.length() + " and Longest Word is: " + longestWord);
+        }
+
     }
 
     public static Map<Integer, String> findTheLargestWord(String wordGiven){

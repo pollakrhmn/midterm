@@ -1,0 +1,148 @@
+Please answer the below core-java Questions:
+
+What is programing language?
+A.
+
+
+
+
+What jdk contains or composed of and define each components?
+A.
+
+
+
+
+
+What is IDE?
+A.
+
+
+
+What are the IDEs available in the market to support java?
+A. Eclipse, IntelliJ, Netbeans.
+
+
+
+Explain the entire java life cycle.
+
+
+what is class?
+A. ate for an object.
+
+What is object?
+A. Instance of a class.
+
+What is the entry point of an application?
+A. The main method.
+
+Why main is static?
+A. So JVM can invoke it without instantiating the class. JVM looks for this method signature to execute the Java program.
+
+Which class is the superclass of all classes?
+What is difference between path and classpath variables?
+What is the difference between an Interface and Abstract class?
+
+Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A. Extend Abstract Class or implement Interface to a new Class and then the new class can be instantiated.
+
+what is Access Specifier?
+What is OOP ? Define each feature of java OOP.
+What is Java Package and which package is imported by default?
+What is API? Name list of API that you have used so far.
+Does java support multiple inheritance, explain why or why not?
+What is method overloading and when it happens?
+Explain exceptions in java and how to handle it.
+What is static keyword in java? How it has been used in variables and methods ?
+What is final and how it has been used variables and methods?
+What is final, finally and finalize?
+
+What is a constructor ?
+A. Special type of method that is used to initialize the state of an object in a class.
+
+Can we have multiple constructors in a class?
+A. Yes.
+
+If we don't have a constructor declared, what is called during the object creation?
+A. Default Constructor.
+
+What is "this" keyword in java ?
+A. Refers to the current object in a method or constructor.
+
+What is "super" keyword in java? How many possible way can you use?
+
+What is JVM stand for ?
+A. Java Virtual Machine.
+
+Is JVM platform independent?
+A. Yes.
+
+What version of java are you using?
+
+What is JAR stand for ?
+Java ARchive.
+
+
+What is the difference between JDK and JVM?
+A. JDK is for development purposes and JVM is responsible for converting the byte code to the machine-specific code.
+
+What is the difference between JVM and JRE?
+A. JRE is for running the java programs. JVM provides platform independence.
+
+What is compile time and run time?
+
+
+What is heap?
+A. Runtime data area in which the memory is allocated to the objects.
+
+How java manage it's memory?
+What is the difference between String, StringBuffer and StringBuilder?
+
+What is Singleton class?
+A. Object hiding.
+
+What is Serialization and Deserialization?
+when to use transient variable in java?
+
+Difference between while and do..while loop?
+A. While Loop tests the condition before executing code block and in a do/while loop; the body is executed once before the condition is checked.
+
+What is Enum?
+A. A type who's fields consist of a fixed set of constants.
+
+
+What is Iterator?
+Which one will take more memory, an int or Integer?
+Why is String Immutable in Java?
+What is constructor chaining in Java?
+The difference between Serial and Parallel Garbage Collector?
+What is JIT stands for?
+Explain Java Heap space and Garbage collection?
+Can you guarantee the garbage collection process?
+What is the difference between stack and heap in Java?
+What is reflection in java and why is it useful?
+what is multithreading in java?
+What is the use of synchronization in Java?
+
+What is Framework?
+A. Software libraries created to make building applications easier and faster. Consists of pre-written code that you can use to help develop your own code.
+
+What are the testing Framework available in java?
+A. JUnit, TestNG, Selenium, Jenkins.
+
+Difference between jUnit and testNG?
+A. Both are unit testing frameworks, however for TestNG parallel testing is possible.
+
+What are the dependencies for this project?
+what is dependency injection in java?
+
+What is static binding and dynamic binding?
+A. Static binding is resolved at compile time (Method Overloading). Dynamic binding is resolved at run time (Method Overriding).
+
+
+
+
+
+
+
+
+
